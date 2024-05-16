@@ -9,7 +9,7 @@
 resource "spacelift_policy" "access" {
   type = "ACCESS"
 
-  name = "All of Engineering gets read access"
+  name = "All of Engineering gets read access test"
   body = file("${path.module}/policies/access.rego")
 }
 
